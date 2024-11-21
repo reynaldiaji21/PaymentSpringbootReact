@@ -12,7 +12,7 @@ import com.rad.spring.react.service.OracleJdbcService;
 public class JDBCOracleTestRunner implements CommandLineRunner{
 
 	@Autowired
-	private OracleJdbcService oracleJdbcService;
+	private OracleJdbcService oracleJdbcService; 
 	
 	@Override 
 	public void run(String... args) throws Exception {
