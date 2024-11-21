@@ -14,7 +14,7 @@ public class JDBCOracleTestRunner implements CommandLineRunner{
 	@Autowired
 	private OracleJdbcService oracleJdbcService;
 	
-	@Override
+	@Override 
 	public void run(String... args) throws Exception {
 		System.out.println("check running jdbc oracle");
 		//oracleJdbcService.insertRecord("2", "belanja");
